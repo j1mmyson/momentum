@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jimentum</title>
+        <link rel = "stylesheet" href="index.css"/>
+        <meta charset="UTF-8" />
+    </head>
+
+    <body>
+
+        <div class="js-weather weather">
+            <span class="weather_text"></span>
+            <img class ="icon"src="" alt="">
+        </div>
+
+        <div class="js-clock">
+            <h2>00:00</h2>
+        </div>
+        
+        <form class ="js-form form">
+            <input id = "nameInput" type="text" placeholder="What is your name?">
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+
+        <div class="box">
+            <form class="js-toDoForm">
+                <input id="todoInput" type="text" placeholder="What To Do?">
+            </form>
+        </div>
+        <div class="box">
+            <div class="ToDoList">
+                <ul class="js-pending">
+                <h2>ToDo</h2>
+                <hr color="ivory">
+                </ul>
+                <ul class="js-finished">
+                <h2>Fin</h2>
+                <hr color="ivory">
+                </ul>
+            </div>
+        </div>
+        <script src="src/clock.js"></script>
+        <script src="src/greeting.js"></script>
+        <script src="src/todo.js"></script>
+        <script src="src/bg.js"></script>
+        <script src="src/weather.js"></script>
+    </body>
+</html>
